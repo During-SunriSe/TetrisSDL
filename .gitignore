@@ -1,0 +1,124 @@
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.hi
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (shared libraries)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.stackdump
+.vscode/
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Dependency directories
+/vendor/
+node_modules/
+target/
+build/
+bin/
+obj/
+out/
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+*.cmake
+
+# Qt specific files
+*.moc
+*.qrc
+*.pro.user*
+qrc_*.cpp
+ui_*.h
+
+# Visual Studio files
+*.vcxproj
+*.vcxproj.*
+*.vcproj
+*.vcproj.*
+*.sln
+*.sdf
+*.opensdf
+*.vcxproj.filters
+ipch/
+*.ipch
+*.aps
+*.ncb
+*.opensdf
+*.suo
+*.cachefile
+*.log
+*.tlog
+*.lastbuildstate
+*.sdf
+*.unsuccessfulbuild
+*.userprefs
+*.user
+
+# Code::Blocks files
+*.layout
+*.depend
+*.depend.*
+
+# JetBrains CLion files
+.idea/
+*.iml
+
+# Static analysis tool files
+*.iwyu
+*.cppcheck
+*.clang-tidy
+
+# Miscellaneous
+*.DS_Store
+*.directory
+*.tags
+*.taghl
+*.orig
+*.rej
+*.idx
+*.ilk
+*.pdb
+*.idb
+*.aps
+*.ncb
+*.opt
+*.plg
+*.pyc
+*.pyo
+*.class
+*~
+
+# Other
+*.log
+*.csv
