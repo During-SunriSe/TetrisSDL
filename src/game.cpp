@@ -257,7 +257,7 @@ void Game::renderMenu() {
     SDL_FreeSurface(surfaceMessage);
     SDL_DestroyTexture(message);
 
-    std::string aiText = "AI";
+    std::string aiText = "Algorithm";
     surfaceMessage = TTF_RenderText_Solid(font, aiText.c_str(), white);
     message = SDL_CreateTextureFromSurface(renderer, surfaceMessage);
 
